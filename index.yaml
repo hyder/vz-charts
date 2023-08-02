@@ -3,7 +3,7 @@ entries:
   verrazzano-instance:
   - apiVersion: v1
     appVersion: 1.6.1
-    created: "2023-08-02T02:41:08.685620064Z"
+    created: "2023-08-02T13:11:49.515335997+10:00"
     description: A Helm chart for the Verrazzano Instance
     digest: 4a37ebbba67e0811090caa9b56366e2f04892e32043df4519d8af2d2f48e59e1
     name: verrazzano-instance
@@ -11,13 +11,14 @@ entries:
     - https://hyder.github.io/vz-charts/charts/verrazzano-instance-1.6.1.tgz
     version: 1.6.1
   verrazzano-platform-operator:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: 1.6.1
-    created: "2023-08-02T02:41:08.686638525Z"
+    created: "2023-08-02T13:11:49.517054801+10:00"
     description: A Helm chart for the Verrazzano Platform Operator
-    digest: 30024c85508f555975f07bdb5109fa1593c1d0d85ec54906a253fafafa47cc0f
+    digest: 9a3324d7404e1f9c122814369ae8acc89cb143c1861399b90cf4e84a81dee8e0
     name: verrazzano-platform-operator
+    type: application
     urls:
     - https://hyder.github.io/vz-charts/charts/verrazzano-platform-operator-1.6.1.tgz
     version: 1.6.1
-generated: "2023-08-02T02:41:08.685339573Z"
+generated: "2023-08-02T13:11:49.514715928+10:00"
