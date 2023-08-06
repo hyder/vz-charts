@@ -3,42 +3,42 @@ entries:
   managed-verrazzano:
   - apiVersion: v2
     appVersion: 1.6.3
-    created: "2023-08-06T12:16:36.171849656+10:00"
+    created: "2023-08-06T13:25:29.728869061+10:00"
     description: A Helm chart deploying Verrazzano managed Verrazzano profile
     digest: 77d68c8448732bf83efe051f9a757559d5a48bfc67d573e1e5efb027d5f97a89
     name: managed-verrazzano
     type: application
     urls:
-    - https://hyder.github.io/vz-charts/managed-verrazzano-1.6.3.tgz
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.3.tgz
     version: 1.6.3
   verrazzano-instance:
   - apiVersion: v1
     appVersion: 1.6.1
-    created: "2023-08-06T12:16:36.171947428+10:00"
+    created: "2023-08-06T13:25:29.728961151+10:00"
     description: A Helm chart for the Verrazzano Instance
     digest: 4a37ebbba67e0811090caa9b56366e2f04892e32043df4519d8af2d2f48e59e1
     name: verrazzano-instance
     urls:
-    - https://hyder.github.io/vz-charts/verrazzano-instance-1.6.1.tgz
+    - https://hyder.github.io/vz-charts/charts/verrazzano-instance-1.6.1.tgz
     version: 1.6.1
   verrazzano-platform-operator:
   - apiVersion: v1
     appVersion: 1.6.3
-    created: "2023-08-06T12:16:36.174669668+10:00"
+    created: "2023-08-06T13:25:29.731282538+10:00"
     description: A Helm chart for the Verrazzano Platform Operator
     digest: 771cee97774bd6d32ac216e6f32d2653a79c606ef16acd7facc6cc293d8c0a62
     name: verrazzano-platform-operator
     urls:
-    - https://hyder.github.io/vz-charts/verrazzano-platform-operator-1.6.3.tgz
+    - https://hyder.github.io/vz-charts/charts/verrazzano-platform-operator-1.6.3.tgz
     version: 1.6.3
   - apiVersion: v2
     appVersion: 1.6.1
-    created: "2023-08-06T12:16:36.173945914+10:00"
+    created: "2023-08-06T13:25:29.730617429+10:00"
     description: A Helm chart for the Verrazzano Platform Operator
     digest: 9a3324d7404e1f9c122814369ae8acc89cb143c1861399b90cf4e84a81dee8e0
     name: verrazzano-platform-operator
     type: application
     urls:
-    - https://hyder.github.io/vz-charts/verrazzano-platform-operator-1.6.1.tgz
+    - https://hyder.github.io/vz-charts/charts/verrazzano-platform-operator-1.6.1.tgz
     version: 1.6.1
-generated: "2023-08-06T12:16:36.171532358+10:00"
+generated: "2023-08-06T13:25:29.728584041+10:00"
