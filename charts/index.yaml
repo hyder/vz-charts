@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   managed-verrazzano:
   - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2023-08-21T13:38:29.16560946+10:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: 2ee9b35c7468ac18afe705cba3e37aad3a09af216e0d4376607090664857ae68
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.4.tgz
+    version: 1.6.4
+  - apiVersion: v2
     appVersion: 1.6.3
-    created: "2023-08-07T17:37:45.549171527+10:00"
+    created: "2023-08-21T13:38:29.165502315+10:00"
     description: A Helm chart deploying Verrazzano managed Verrazzano profile
     digest: 786d02e824925432e0c593a26b636122cc4e2ef497535ff03b0e7ba4d85a3c0a
     name: managed-verrazzano
@@ -14,7 +24,7 @@ entries:
   verrazzano-instance:
   - apiVersion: v1
     appVersion: 1.6.1
-    created: "2023-08-07T17:37:45.549549659+10:00"
+    created: "2023-08-21T13:38:29.165923412+10:00"
     description: A Helm chart for the Verrazzano Instance
     digest: 4a37ebbba67e0811090caa9b56366e2f04892e32043df4519d8af2d2f48e59e1
     name: verrazzano-instance
@@ -23,8 +33,17 @@ entries:
     version: 1.6.1
   verrazzano-platform-operator:
   - apiVersion: v1
+    appVersion: 1.6.4
+    created: "2023-08-21T13:38:29.168741659+10:00"
+    description: A Helm chart for the Verrazzano Platform Operator
+    digest: e19325b6aa2441fa7fc8530f0aae27f1fb15c89fb9fcbb25a3c4d04ca019f879
+    name: verrazzano-platform-operator
+    urls:
+    - https://hyder.github.io/vz-charts/charts/verrazzano-platform-operator-1.6.4.tgz
+    version: 1.6.4
+  - apiVersion: v1
     appVersion: 1.6.3
-    created: "2023-08-07T17:37:45.552214084+10:00"
+    created: "2023-08-21T13:38:29.168113846+10:00"
     description: A Helm chart for the Verrazzano Platform Operator
     digest: 771cee97774bd6d32ac216e6f32d2653a79c606ef16acd7facc6cc293d8c0a62
     name: verrazzano-platform-operator
@@ -33,7 +52,7 @@ entries:
     version: 1.6.3
   - apiVersion: v2
     appVersion: 1.6.1
-    created: "2023-08-07T17:37:45.551259857+10:00"
+    created: "2023-08-21T13:38:29.167084421+10:00"
     description: A Helm chart for the Verrazzano Platform Operator
     digest: 9a3324d7404e1f9c122814369ae8acc89cb143c1861399b90cf4e84a81dee8e0
     name: verrazzano-platform-operator
@@ -44,7 +63,7 @@ entries:
   vzoke:
   - apiVersion: v2
     appVersion: 1.6.3
-    created: "2023-08-07T17:37:45.552349308+10:00"
+    created: "2023-08-21T13:38:29.169362819+10:00"
     description: A Helm chart for creating an OKE cluster and deploying Verrazzano
       managed Verrazzano profile
     digest: f622f3b12fe7d4016ec8d7f6586900835e8557f2e322b0a7848e2e48547b08d2
@@ -53,4 +72,4 @@ entries:
     urls:
     - https://hyder.github.io/vz-charts/charts/vzoke-1.6.3.tgz
     version: 1.6.3
-generated: "2023-08-07T17:37:45.547891475+10:00"
+generated: "2023-08-21T13:38:29.164865505+10:00"
