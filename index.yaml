@@ -1,0 +1,201 @@
+apiVersion: v1
+entries:
+  helm-ora-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-24T00:01:01.28338086+11:00"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.14.4
+    description: A Helm chart for Kubernetes
+    digest: f65e4b949b462d189a8bd04db2abe61ade6ae23e661250c87055daff10a08032
+    name: helm-ora-operator
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/helm-ora-operator-0.1.0.tgz
+    version: 0.1.0
+  managed-cluster:
+  - apiVersion: v2
+    appVersion: 1.6.5
+    created: "2024-03-24T00:01:01.28389599+11:00"
+    description: A Helm chart deploying Verrazzano with managed-cluster profile
+    digest: fc096c57aab92f5962b44126f3e1a3914a878ea38f7f0b4dda075b3e179141c6
+    name: managed-cluster
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-cluster-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.6.6
+    created: "2024-03-24T00:01:01.283778712+11:00"
+    description: A Helm chart deploying Verrazzano with managed-cluster profile
+    digest: e6442300d2115684b6e6f19df9a6996916bfe33f82b22e3064c3a3ad01d4dcc6
+    name: managed-cluster
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-cluster-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.6.5
+    created: "2024-03-24T00:01:01.283694364+11:00"
+    description: A Helm chart deploying Verrazzano with managed-cluster profile
+    digest: 76d56be70da721848338faa040ed948512e4a20423389ce4cbc7ea5967068924
+    name: managed-cluster
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-cluster-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.6.5
+    created: "2024-03-24T00:01:01.283613926+11:00"
+    description: A Helm chart deploying Verrazzano with managed-cluster profile
+    digest: 2605bec55e9f96f8576bbcc89dfdf862296af292695f6bbc3953bae41a2ad7c5
+    name: managed-cluster
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-cluster-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.6.5
+    created: "2024-03-24T00:01:01.283524138+11:00"
+    description: A Helm chart deploying Verrazzano with managed-cluster profile
+    digest: 4b6c4b13bd79b6e282cc2c04911628f4f94a95139cdb3e94501e33c3bdfd1bb8
+    name: managed-cluster
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-cluster-0.1.0.tgz
+    version: 0.1.0
+  managed-verrazzano:
+  - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2024-03-24T00:01:01.284005582+11:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: 6bc5cadbda9a930d34281dd50b2eefa1744c69eb367e73ff49db2a1460d5a9a4
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.10.tgz
+    version: 1.6.10
+  - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2024-03-24T00:01:01.284704325+11:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: f4aa433dba52ed1ff26f33f65ccf9e04ad2751c3273df219ad9473be59d28a5c
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.9.tgz
+    version: 1.6.9
+  - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2024-03-24T00:01:01.284608065+11:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: 9b0bb042828acac4ab922e85628de43980f33488e362d00215e00a491e852139
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.8.tgz
+    version: 1.6.8
+  - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2024-03-24T00:01:01.284503623+11:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: 673aa10eb6c458fe91372c1e04a3d04e8fe53ef6ddf0fe4abe3fdc983033fefb
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.7.tgz
+    version: 1.6.7
+  - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2024-03-24T00:01:01.284408203+11:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: 3e8a542c92fcd4c51124b566079bdc84ae71a93c5c44de4d8fc408e3925c5f81
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.6.tgz
+    version: 1.6.6
+  - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2024-03-24T00:01:01.284307939+11:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: dd8b215a2191726f4680a8df37550816bf544a0a02b7fe3ef608e015ddbe05b4
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.5.tgz
+    version: 1.6.5
+  - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2024-03-24T00:01:01.28418966+11:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: 2ee9b35c7468ac18afe705cba3e37aad3a09af216e0d4376607090664857ae68
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.4.tgz
+    version: 1.6.4
+  - apiVersion: v2
+    appVersion: 1.6.3
+    created: "2024-03-24T00:01:01.28410155+11:00"
+    description: A Helm chart deploying Verrazzano managed Verrazzano profile
+    digest: 786d02e824925432e0c593a26b636122cc4e2ef497535ff03b0e7ba4d85a3c0a
+    name: managed-verrazzano
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/managed-verrazzano-1.6.3.tgz
+    version: 1.6.3
+  verrazzano-instance:
+  - apiVersion: v1
+    appVersion: 1.6.1
+    created: "2024-03-24T00:01:01.284786219+11:00"
+    description: A Helm chart for the Verrazzano Instance
+    digest: 4a37ebbba67e0811090caa9b56366e2f04892e32043df4519d8af2d2f48e59e1
+    name: verrazzano-instance
+    urls:
+    - https://hyder.github.io/vz-charts/charts/verrazzano-instance-1.6.1.tgz
+    version: 1.6.1
+  verrazzano-platform-operator:
+  - apiVersion: v1
+    appVersion: 1.6.4
+    created: "2024-03-24T00:01:01.287312675+11:00"
+    description: A Helm chart for the Verrazzano Platform Operator
+    digest: e19325b6aa2441fa7fc8530f0aae27f1fb15c89fb9fcbb25a3c4d04ca019f879
+    name: verrazzano-platform-operator
+    urls:
+    - https://hyder.github.io/vz-charts/charts/verrazzano-platform-operator-1.6.4.tgz
+    version: 1.6.4
+  - apiVersion: v1
+    appVersion: 1.6.3
+    created: "2024-03-24T00:01:01.286691183+11:00"
+    description: A Helm chart for the Verrazzano Platform Operator
+    digest: 771cee97774bd6d32ac216e6f32d2653a79c606ef16acd7facc6cc293d8c0a62
+    name: verrazzano-platform-operator
+    urls:
+    - https://hyder.github.io/vz-charts/charts/verrazzano-platform-operator-1.6.3.tgz
+    version: 1.6.3
+  - apiVersion: v2
+    appVersion: 1.6.1
+    created: "2024-03-24T00:01:01.286054473+11:00"
+    description: A Helm chart for the Verrazzano Platform Operator
+    digest: 9a3324d7404e1f9c122814369ae8acc89cb143c1861399b90cf4e84a81dee8e0
+    name: verrazzano-platform-operator
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/verrazzano-platform-operator-1.6.1.tgz
+    version: 1.6.1
+  vzoke:
+  - apiVersion: v2
+    appVersion: 1.6.3
+    created: "2024-03-24T00:01:01.287440955+11:00"
+    description: A Helm chart for creating an OKE cluster and deploying Verrazzano
+      managed Verrazzano profile
+    digest: f622f3b12fe7d4016ec8d7f6586900835e8557f2e322b0a7848e2e48547b08d2
+    name: vzoke
+    type: application
+    urls:
+    - https://hyder.github.io/vz-charts/charts/vzoke-1.6.3.tgz
+    version: 1.6.3
+generated: "2024-03-24T00:01:01.278657834+11:00"
